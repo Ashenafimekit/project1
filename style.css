@@ -18,8 +18,10 @@ body {
 .content {
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .cta-button {
     display: inline-block;
@@ -27,6 +29,10 @@ body {
     background-color: #ff6600;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: black;
 }
